@@ -10,7 +10,7 @@ resource "aws_instance" "AWSEC2Instance"{
      security_groups = ["DevOps-Ports"]
      key_name        = "ops-key"
      tags = {
-        Name = "Tomcat-Srv"
+        Name = "Tomcat_Srv"
      }
 }
 
